@@ -1,0 +1,20 @@
+{
+    "type": [
+        "VerifiableCredential"
+    ],
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/bls12381-2020/v1"
+    ],
+    "credentialSubject": [
+        {
+            "@explicit": true,
+            "field1": {},
+            "@context": [
+                "schema#c6f68dcd-d02d-4eb4-8787-66a57a4ce00f"
+            ],
+            "id": "urn:uuid:b68f27f5-e75c-465a-b494-0e049bc91207",
+            "type": "c6f68dcd-d02d-4eb4-8787-66a57a4ce00f"
+        }
+    ]
+}
