@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import revealDocument from './vcs/reveal-document.json';
-import signedBbsVc from './vcs/signed-bbs-vc.json';
+import guardianExampleVc from './vcs/guardian-example-meeco.json';
 import { DefaultDocumentLoader, DocumentLoader } from '../src/index';
 import {
     BbsBlsSignatureProof2020,
@@ -9,7 +9,7 @@ import {
 
 describe('test bbs signature', function () {
     it('derive proof', async function () {
-        const result = await deriveProof(signedBbsVc, revealDocument, {
+        const result = await deriveProof(guardianExampleVc, revealDocument, {
             suite: new BbsBlsSignatureProof2020(),
             documentLoader: DocumentLoader.build([new DefaultDocumentLoader()]),
         });
