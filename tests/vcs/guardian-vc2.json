@@ -1,0 +1,46 @@
+{
+  "id":"81348e38-db35-4e5a-bcce-1644422cedd9",
+  "type":[
+      "VerifiableCredential"
+  ],
+  "issuer":"did:hedera:testnet:2jzdcDeEkELMh5qZr2jkinzszre2Fx79xGtgWWa6FdRM;hedera:testnet:tid=0.0.34725418",
+  "issuanceDate":"2022-05-09T12:41:48.145Z",
+  "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+  ],
+  "credentialSubject": [
+    {
+      "field0":"My Company",
+      "field1":"10000",
+      "field2":"dkdkd",
+      "field3":"jkjlkj",
+      "field4":"jkljlk",
+      "field5":"jkljkljk",
+      "field6":"jkljkl",
+      "field7":"kjljklj",
+      "field8":"jkljlj",
+      "field9":"jkljlkjl",
+      "field10":"jkljkljklj",
+      "field11":"jkjlkjlkj",
+      "field12":"kljlkjlkj",
+      "field13":"jkljkljlkj",
+      "field14":"jkkljklj",
+      "field15":"kljkljkljkl",
+      "field16":"jkljkljkl",
+      "field17":"jkljlkjlkjlk",
+      "policyId":"627903aa8b28bf6e0ae7bbca",
+      "@context":[
+          "https://ipfs.io/ipfs/bafkreia5jswe4oboy4bpfff42z2o4wdwyaslkzkhmduztii54nrwaf4yye"
+      ],
+      "id":"did:hedera:testnet:2jzdcDeEkELMh5qZr2jkinzszre2Fx79xGtgWWa6FdRM;hedera:testnet:tid=0.0.34725418",
+      "type":"8851425a-8dee-4e0f-a044-dba63cf84eb2&1.0.0"
+    }
+  ],
+  "proof": {
+    "type":"Ed25519Signature2018",
+    "created":"2022-05-09T12:41:48Z",
+    "verificationMethod":"did:hedera:testnet:2jzdcDeEkELMh5qZr2jkinzszre2Fx79xGtgWWa6FdRM;hedera:testnet:tid=0.0.34725418#did-root-key",
+    "proofPurpose":"assertionMethod",
+    "jws":"eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..1dIQav4D47cfOJxbdmUhPutBTJfwM6BYROJqHcEXPQvl59FzAPTY9ZQdlwdnsTb0wECSCpKJUjkiDxc-Zm0dBg"
+  }
+}
