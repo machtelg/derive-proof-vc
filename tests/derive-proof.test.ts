@@ -10,7 +10,7 @@ import {
 describe('test bbs signature', function () {
     it('derive proof', async function () {
         const result = await deriveProof(guardianExampleVc, revealDocument, {
-            suite: new BbsBlsSignature2020(),
+            suite: new BbsBlsSignatureProof2020(),
             documentLoader: DocumentLoader.build([new DefaultDocumentLoader()]),
         });
 
