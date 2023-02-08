@@ -5,7 +5,7 @@ import { DefaultDocumentLoader, DocumentLoader } from '../src/index';
 import {
     BbsBlsSignatureProof2020,
     deriveProof,
-} from '@zkp-ld/jsonld-signatures-bbs';
+} from '@mattrglobal/jsonld-signatures-bbs';
 
 describe('test bbs signature', function () {
     it('derive proof', async function () {
