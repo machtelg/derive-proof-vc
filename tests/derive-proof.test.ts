@@ -5,12 +5,12 @@ import { DefaultDocumentLoader, DocumentLoader } from '../src/index';
 import {
     BbsBlsSignatureProof2020,
     deriveProof,
-} from '@mattrglobal/jsonld-signatures-bbs';
+} from '@zkp-ld/jsonld-signatures-bbs';
 
 describe('test bbs signature', function () {
     it('derive proof', async function () {
         const result = await deriveProof(guardianExampleVc, revealDocument, {
-            suite: new BbsBlsSignatureProof2020(),
+            suite: new BbsTermwiseSignature2021(),
             documentLoader: DocumentLoader.build([new DefaultDocumentLoader()]),
         });
 
