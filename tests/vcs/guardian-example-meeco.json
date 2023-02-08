@@ -1,0 +1,42 @@
+{
+  "id": "81348e38-db35-4e5a-bcce-1644422cedd9",
+  "type": ["VerifiableCredential"],
+  "issuer": "did:hedera:testnet:2jzdcDeEkELMh5qZr2jkinzszre2Fx79xGtgWWa6FdRM;hedera:testnet:tid=0.0.34725418",
+  "issuanceDate": "2022-05-09T12:41:48.145Z",
+  "@context": ["https://www.w3.org/2018/credentials/v1"],
+  "credentialSubject": [
+    {
+      "field0": "Example Company",
+      "field1": "10000",
+      "field2": "H0170966",
+      "field3": "255 345 345",
+      "field4": "AU",
+      "field5": "2022-10-13",
+      "field6": "Pty Ltd",
+      "field7": "food retailer",
+      "field8": "Charlie Echo Oscar",
+      "field9": "6",
+      "field10": "2001",
+      "field11": "contact@example.com",
+      "field12": "Peter Charlie",
+      "field13": "0411111111",
+      "field14": "1 Main Street",
+      "field15": "registrant",
+      "field16": "http://exmple.com ",
+      "field17": "9",
+      "policyId": "627903aa8b28bf6e0ae7bbca",
+      "@context": [
+        "https://ipfs.io/ipfs/bafkreigalme6xdvxyjygr66zoiueqv57ldxtmuxxjii2ggddpxtqjvpape"
+      ],
+      "id": "did:hedera:testnet:4DvKiRYHeTo5zLL1AptiyjGmL4M6g8pepmMeAGkbAeHH;hedera:testnet:tid=0.0.34727637",
+      "type": "8851425a-8dee-4e0f-a044-dba63cf84eb2&1.0.0"
+    }
+  ],
+  "proof": {
+    "type": "BbsBlsSignature2020",
+    "created": "2020–04–26T04:21:07Z",
+    "verificationMethod": "did:hedera:testnet:2jzdcDeEkELMh5qZr2jkinzszre2Fx79xGtgWWa6FdRM;hedera:testnet:tid=0.0.34725418#did-root-key",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "jx2VhjyZqUT91e2OhzweJA7G2u2UvmiDtIfmr+wUWNHWno+UOAh0FaNpM8Br+5j2JBkH981/nO1I7/9PFaRrng6NXu7vzDroKtuyj6nHGkMmGq4OMmBzIqRnG3ybin/Sxmu5YwqOxPMRsWH3H+2wSA=="
+  }
+}
