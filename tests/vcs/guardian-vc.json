@@ -1,0 +1,32 @@
+{
+    "id":"9d8e2c7a-e9e6-41c4-9c53-51db5a042ac9",
+    "type":[
+        "VerifiableCredential"
+    ],
+    "issuer":"did:hedera:testnet:2jzdcDeEkELMh5qZr2jkinzszre2Fx79xGtgWWa6FdRM;hedera:testnet:tid=0.0.34725418",
+    "issuanceDate":"2022-05-09T12:43:11.162Z",
+    "@context":[
+          "https://www.w3.org/2018/credentials/v1"
+    ],
+    "credentialSubject":[
+       {
+        "field0":"MySensor",
+        "field1":"The Project",
+        "field2":"MRV",
+        "field3":"1000",
+        "policyId":"627903aa8b28bf6e0ae7bbca",
+        "@context": [
+          "https://ipfs.io/ipfs/bafkreigalme6xdvxyjygr66zoiueqv57ldxtmuxxjii2ggddpxtqjvpape"
+        ],
+        "id":"did:hedera:testnet:4DvKiRYHeTo5zLL1AptiyjGmL4M6g8pepmMeAGkbAeHH;hedera:testnet:tid=0.0.34727637",
+        "type":"22cf5579-4a14-4e48-900c-b478f62dc812&1.0.0"
+      }
+    ],
+    "proof": {
+         "type":"Ed25519Signature2018",
+         "created":"2022-05-09T12:43:11Z",
+         "verificationMethod":"did:hedera:testnet:2jzdcDeEkELMh5qZr2jkinzszre2Fx79xGtgWWa6FdRM;hedera:testnet:tid=0.0.34725418#did-root-key",
+         "proofPurpose":"assertionMethod",
+         "jws":"eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..zy3zDRCEL9Bz47tx3JlyBYUzshdLEO0XnW_SnqIYxXLo5sPZJNKW4giYkcrJqTJ27MPAVNTlKQwMnwi7F2lfDQ"
+         }
+}
