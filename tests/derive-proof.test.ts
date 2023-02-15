@@ -1,6 +1,6 @@
 import { assert } from 'chai';
 import revealDocument from './vcs/reveal-document.json';
-import guardianExampleVc from './vcs/guardian-example-meeco.json';
+import guardianExampleVc from './vcs/playground-example.json';
 import { DefaultDocumentLoader, DocumentLoader } from '../src/index';
 import {
     BbsBlsSignatureProof2020,
