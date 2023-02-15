@@ -1,0 +1,70 @@
+{
+  "$id": "#382e45dc-151d-4006-b273-9bafae0043ed&1.0.0",
+  "$comment": "{\"term\": \"382e45dc-151d-4006-b273-9bafae0043ed&1.0.0\", \"@id\": \"https://ipfs.io/ipfs/bafkreifnvaontr5fbqa436pjppnyrklsqi57fnqygflrn52ktavnow4g6y#382e45dc-151d-4006-b273-9bafae0043ed&1.0.0\"}",
+  "title": "MRV",
+  "description": "MRV",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" } }
+      ],
+      "readOnly": true
+    },
+    "type": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" } }
+      ],
+      "readOnly": true
+    },
+    "id": { "type": "string", "readOnly": true },
+    "field0": {
+      "title": "date",
+      "description": "date",
+      "readOnly": false,
+      "$comment": "{ \"term\": \"field0\", \"@id\": \"https://www.schema.org/text\" }",
+      "type": "string"
+    },
+    "field1": {
+      "title": "amount",
+      "description": "amount",
+      "readOnly": false,
+      "$comment": "{ \"term\": \"field1\", \"@id\": \"https://www.schema.org/text\" }",
+      "type": "string"
+    },
+    "field2": {
+      "title": "period",
+      "description": "period",
+      "readOnly": false,
+      "$comment": "{ \"term\": \"field2\", \"@id\": \"https://www.schema.org/text\" }",
+      "type": "string"
+    },
+    "accountId": {
+      "title": "accountId",
+      "description": "accountId",
+      "readOnly": true,
+      "$comment": "{ \"term\": \"accountId\", \"@id\": \"https://www.schema.org/text\" }",
+      "type": "string"
+    },
+    "policyId": {
+      "title": "policyId",
+      "description": "policyId",
+      "readOnly": true,
+      "$comment": "{ \"term\": \"policyId\", \"@id\": \"https://www.schema.org/text\" }",
+      "type": "string"
+    }
+  },
+  "required": [
+    "@context",
+    "type",
+    "field0",
+    "field1",
+    "field2",
+    "accountId",
+    "policyId"
+  ],
+  "additionalProperties": false,
+  "$defs": {}
+}
