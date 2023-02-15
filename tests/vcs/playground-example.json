@@ -1,0 +1,21 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/bbs/v1",
+    "https://derek-meeco.github.io/bbs-derive-proof-vc/tests/vcs/mrv-data.schema.json"
+  ],
+  "id": "ddcd4d88-4eb4-4ed0-9981-a60cf88d85f4",
+  "type": ["VerifiableCredential"],
+  "issuer": "did:hedera:testnet:4DvKiRYHeTo5zLL1AptiyjGmL4M6g8pepmMeAGkbAeHH;hedera:testnet:tid=0.0.34727637",
+  "issuanceDate": "2022-05-09T12:45:11.832Z",
+  "credentialSubject": [
+    {
+      "field0": "2",
+      "field1": "1",
+      "field2": "1",
+      "policyId": "627903aa8b28bf6e0ae7bbca",
+      "accountId": "0.0.45075",
+      "type": "382e45dc-151d-4006-b273-9bafae0043ed&1.0.0"
+    }
+  ]
+}
